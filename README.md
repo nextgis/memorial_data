@@ -11,4 +11,4 @@ Portion of these data (Lubyanka area) was geocoded and put on the map here: http
 Related links:
 
 * Lubyanka Web-GIS sources: https://github.com/nextgis/memo-oct29
-* Another project on extracting full lists througout Russia (but without address information): https://github.com/ivbeg/memoru
+* Another project on extracting full lists throughout Russia (but without address information): https://github.com/ivbeg/memoru
