@@ -1,14 +1,14 @@
 memorial-data
 =============
 
-Data from Memorial: 
+Data from Memorial (http://memo.ru) in in machine readable form 
 
-* victims of terror of 1930s in Moscow. Source: http://mos.memo.ru
-* lists of victims across Russia extracted from disk 'Жертвы политического террора в СССР" осень 2007 г.'
+* victims of terror of 1930s in Moscow
+* lists of 2614978 victims across Russia
 
 ##mos.memo.ru
 
-Scraped from http://mos.memo.ru
+Scraped from source: http://mos.memo.ru
 
 Main datafile is: data/mos.memo.ru/all.csv, includes addresses.
 
