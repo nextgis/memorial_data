@@ -1,7 +1,7 @@
 memorial-data
 =============
 
-Data from Memorial (http://memo.ru) in in machine readable form 
+Data from Memorial (http://memo.ru) in machine readable form:
 
 * victims of terror of 1930s in Moscow
 * lists of 2614978 victims across Russia
