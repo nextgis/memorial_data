@@ -24,7 +24,7 @@ Related links:
 
 ##lists.memo.ru-disk
 
-Data extracted from the MySQL database.
+Data extracted from the MySQL database distributed on ["Жертвы политического террора в СССР"](http://rutracker.org/forum/viewtopic.php?t=1185307) disk.
 
 Main datafiles are: data/lists.memo.ru-disk, no addresses
 
