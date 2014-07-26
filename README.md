@@ -22,7 +22,7 @@ Related links:
 * Lubyanka Web-GIS sources: https://github.com/nextgis/memo-oct29
 * Another project on extracting full lists throughout Russia (but without address information): https://github.com/ivbeg/memoru
 
-##lists.memo.ru
+##lists.memo.ru-disk
 
 Data extracted from the MySQL database.
 
