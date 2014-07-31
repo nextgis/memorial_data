@@ -38,7 +38,11 @@ def parse_page(id, address_id):
                 address_id = address_id + 1
                 print address_id
                 apt_count = tds[0]['rowspan']
-                person_count = tds[0].find("p").text.replace(u" чел.","")
+                if tds[0].find("p"):
+                    person_count = tds[0].find("p").text.replace(u" чел.","")
+                else:
+                    person_count = 1
+                
                 house = tds[0].strings.next()
                 apt = tds[1].strings.next().replace(u" кв.","")
                 persons = tds[2].findAll("p")
@@ -89,9 +93,9 @@ if __name__ == '__main__':
     
     address_id = 0
 
-    for id in range(1,78):
+    for id in range(1,79):
         url = "http://mos.memo.ru/shot-" + str(id) + ".htm"
-        #download_page(url,str(id))
+        download_page(url,str(id))
         address_id = parse_page(str(id), address_id)
     
     f_output_main.close()
