@@ -20,6 +20,7 @@ Portion of these data (Lubyanka area) was geocoded and put on the map here: http
 Related links:
 
 * Lubyanka Web-GIS sources: https://github.com/nextgis/memo-oct29
+* First try at geocoding in 2001 (not good, but first) - Rivers of blood in Moscow:The Great Purge personified http://memoryfull.ru/purge/repressions.html, data: https://www.google.com/fusiontables/DataSource?snapid=S179582JJFj
 
 ##lists.memo.ru-disk
 
