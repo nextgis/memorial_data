@@ -42,3 +42,4 @@ Geodata used on the 'Topography of terror' map: http://topos.memo.ru/karta. Lice
 Related links:
 
 * [Software component for Topography of terror project](https://github.com/nextgis/topography-of-terror). 
+* [Old<->New street names used for a map](https://github.com/nextgis/topography-of-terror/blob/master/DB%20sources/streets_names.csv)
