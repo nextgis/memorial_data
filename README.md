@@ -37,8 +37,8 @@ Related links:
 
 ##topography of terror
 
-Geodata used on the 'Topography of terror' map: http://topos.memo.ru/karta
+Geodata used on the 'Topography of terror' map: http://topos.memo.ru/karta. License: ODbL (OpenStreetMap is a source for building outlines).
 
 Related links:
 
-* [Software component for Topography of terror project](https://github.com/nextgis/topography-of-terror)
+* [Software component for Topography of terror project](https://github.com/nextgis/topography-of-terror). 
