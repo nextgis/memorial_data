@@ -17,6 +17,7 @@ Includes downloading and parsing script.
 
 Portion of these data (Lubyanka area) was geocoded and put on the map here: http://october29.ru/wp/gorod/
 
+License: code - GNU GPL v2 or any later version, data - unknown, possibly CC-BY
 
 Related links:
 
@@ -28,6 +29,8 @@ Related links:
 Data extracted from the MySQL database distributed on ["Жертвы политического террора в СССР"](http://rutracker.org/forum/viewtopic.php?t=1185307) disk.
 
 Main datafiles are: data/lists.memo.ru-disk, no addresses
+
+License: unknown, possibly CC-BY
 
 Related links:
 
