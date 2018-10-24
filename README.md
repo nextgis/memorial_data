@@ -28,6 +28,21 @@ Related links:
 
 Data extracted from the MySQL database distributed on ["Жертвы политического террора в СССР"](http://rutracker.org/forum/viewtopic.php?t=1185307) disk.
 
+Added SQL queries for create and fill tables.
+
+Date fields convert rule:
+day = db_field & 31; // may be empty
+month = (db_field >> 5) & 15; // may be empty
+year =( (db_field >> 9) & 255) + 1800; 
+
+SQL: REABDATE_STR = case when REABDATE > 0 then
+concat(
+if(REABDATE & 31 > 0, concat(lpad( REABDATE & 31,2,'0'),'.'),''),
+if((REABDATE >> 5) & 15 > 0, concat(lpad( (REABDATE >> 5) & 15,2,'0'),'.'),''),
+if((REABDATE >> 9) & 255 > 0, ((REABDATE >> 9) & 255) + 1800,'')
+) 
+else null end
+
 Main datafiles are: data/lists.memo.ru-disk, no addresses
 
 License: unknown, possibly CC-BY
